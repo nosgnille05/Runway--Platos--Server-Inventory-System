@@ -67,6 +67,22 @@ int main(void) {
   else
     printf("\nDon't worry! We can fix it now!\n");
   }
+    if((strcmp(correct, information_correct)) == 0)
+  {
+    printf("\nPerfect! Lets get started!\n");
+    all_correct = 1;
+  }
+  else
+    printf("\nDon't worry! We can fix it now!\n");
+  }
+  if((strcmp(correct, information_correct)) == 0)
+  {
+    printf("\nPerfect! Lets get started!\n");
+    all_correct = 1;
+  }
+  else
+    printf("\nDon't worry! We can fix it now!\n");
+  }
 
   return 0; 
 }
