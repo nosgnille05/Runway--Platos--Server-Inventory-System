@@ -8,7 +8,7 @@ int main(void) {
   int shirts = 0;
   int pants = 0;
   int total = shoes + shirts + pants;
-  printf("Total %d\n", total);
+  //printf("Total %d\n", total);
   /*Notes:
     -API
     -Front End
@@ -67,6 +67,8 @@ int main(void) {
   else
     printf("\nDon't worry! We can fix it now!\n");
   }
+
+  printf("\nAll done. Thank you!\n");
 
   return 0; 
 }
