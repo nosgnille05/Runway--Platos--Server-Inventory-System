@@ -24,6 +24,8 @@ int main(void) {
   char information_correct[100];
   char correct[100] = "Y";
   int all_correct = 0;
+  char buy_sell[100];
+  char buy[100] = "B";
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
@@ -59,17 +61,21 @@ int main(void) {
   printf("\nDoes this information look correct? Y or N\n");
   scanf("%s", information_correct);
 
-  if((strcmp(correct, information_correct)) == 0)
-  {
+  if((strcmp(correct, information_correct)) == 0){
     printf("\nPerfect! Lets get started!\n");
     all_correct = 1;
   }
   else
     printf("\nDon't worry! We can fix it now!\n");
   }
+  
+  printf("\nWelcome to (store name)! Would you like to buy or sell today? B or S\n");
+  scanf("%s", buy_sell);
 
-  printf("\nAll done. Thank you!\n");
-  printf("Welcome to (store name)! Would you like to buy or sell today?\n");
+  if((strcmp(buy, buy_sell)) == 0){
+    printf("\nAwesome! Take a look around!\n");}
+  else{
+    printf("\nGreat! An associate will be right with you!\n");}
 
   return 0; 
 }
