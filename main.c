@@ -69,6 +69,7 @@ int main(void) {
   }
 
   printf("\nAll done. Thank you!\n");
+  printf("Welcome to (store name)! Would you like to buy or sell today?\n");
 
   return 0; 
 }
