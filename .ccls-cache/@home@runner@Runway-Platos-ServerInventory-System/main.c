@@ -14,7 +14,7 @@ int main(void) {
     -Front End
     -Admin
     -Employee
-    -Flutter
+    -Flutter w/SQL
   */
   char admin_fname[100];
   char admin_lname[100];
