@@ -84,5 +84,11 @@ int main(void) {
   return 0; 
 }
 //Design, Organize, Tech-Stack, API, Implementation
+//Design: What and How?
+//Organize: In what way?
+//Tech-Stack: Flutter/Postgres
+//API: Build it
+//Implementation: Web Application
+
 
 
