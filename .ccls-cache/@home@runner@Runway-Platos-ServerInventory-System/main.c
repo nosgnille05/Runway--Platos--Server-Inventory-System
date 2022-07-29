@@ -83,6 +83,6 @@ int main(void) {
 
   return 0; 
 }
-
+//Design, Organize, Tech-Stack, API, Implementation
 
 
