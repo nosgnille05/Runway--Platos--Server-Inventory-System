@@ -24,10 +24,12 @@ int main(void) {
   char employee_lname[100];
   char employee_username[100];
   char information_correct[100];
-  char correct[100] = "Y";
+  char Correct[100] = "Y";
+  char correct[100] = "y";
   int all_correct = 0;
   char buy_sell[100];
-  char buy[100] = "B";
+  char Buy[100] = "B";
+  char buy[100] = "b";
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
@@ -63,7 +65,7 @@ int main(void) {
   printf("\nDoes this information look correct? Y or N\n");
   scanf("%s", information_correct);
 
-  if((strcmp(correct, information_correct)) == 0){
+  if(strcmp(Correct, information_correct) == 0 || strcmp(correct, information_correct) == 0){
     printf("\nPerfect! Lets get started!\n");
     all_correct = 1;
   }
@@ -74,7 +76,7 @@ int main(void) {
   printf("\nWelcome to (store name)! Would you like to buy or sell today? B or S\n");
   scanf("%s", buy_sell);
 
-  if((strcmp(buy, buy_sell)) == 0){
+  if(strcmp(Buy, buy_sell) == 0 || strcmp(buy, buy_sell) == 0){
     printf("\nAwesome! Take a look around!\n");}
   else{
     printf("\nGreat! An associate will be right with you!\n");}
