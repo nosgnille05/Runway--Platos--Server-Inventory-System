@@ -8,6 +8,7 @@ int main(void) {
   int shirts = 0;
   int pants = 0;
   int total = shoes + shirts + pants;
+  double hourly;
   //printf("Total %d\n", total);
   /*Notes:
     -API
