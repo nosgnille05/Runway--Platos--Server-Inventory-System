@@ -11,6 +11,10 @@ int main(void) {
   double hourly;
   //printf("Total %d\n", total);
   /*Notes:
+    -API
+    -Front End
+    -Admin
+    -Employee
     -Flutter w/SQL
   */
   char admin_fname[100];
