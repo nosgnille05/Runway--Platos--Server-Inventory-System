@@ -61,7 +61,7 @@ int main(void) {
   scanf("%s", information_correct);
 
   if(strcmp(Correct, information_correct) == 0 || strcmp(correct, information_correct) == 0){
-    printf("\nPerfect! Lets get started!\n");
+    printf("\nPerfect! You're all set!\n");
     all_correct = 1;
   }
   else
