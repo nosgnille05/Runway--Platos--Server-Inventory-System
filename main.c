@@ -87,7 +87,7 @@ int main(void) {
       scanf("%s", seller_fname);
       scanf("%s", seller_lname);
     printf("\nPlease enter your phone number. We'll only use it to contact you when we're done.\n");
-        scanf("%s", seller_phone);
+        scanf("%s", &seller_phone);
   }
   
 
