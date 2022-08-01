@@ -3,13 +3,6 @@
 #include <string.h>
 
 int main(void) {
-  //Inventory Temp Variables
-  int shoes = 0;
-  int shirts = 0;
-  int pants = 0;
-  int total = shoes + shirts + pants;
-  double hourly;
-  //printf("Total %d\n", total);
   /*Notes:
     -API
     -Front End
@@ -33,6 +26,11 @@ int main(void) {
   char seller_fname[100];
   char seller_lname[100];
   char seller_phone[100];
+  char admin_or_customer[100];
+
+  //Admin or Customer
+  printf("Welcome to Runway/Platos! Admin or Customer? A or C\n");
+    scanf("%s", admin_or_customer);
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
