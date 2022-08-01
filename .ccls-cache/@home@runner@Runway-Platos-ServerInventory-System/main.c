@@ -32,7 +32,7 @@ int main(void) {
   char buy[100] = "b";
   char seller_fname[100];
   char seller_lname[100];
-  int* seller_phone;
+  char seller_phone[100];
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
@@ -87,8 +87,13 @@ int main(void) {
       scanf("%s", seller_fname);
       scanf("%s", seller_lname);
     printf("\nPlease enter your phone number. We'll only use it to contact you when we're done.\n");
-        scanf("%s", &seller_phone);
+        scanf("%s", seller_phone);
   }
+    printf("\nDoes this information look correct?\n");
+    printf("Your First and Last: %s %s", seller_fname, seller_lname);
+    printf("Your Phone Number: %s", seller_phone);
+
+  
   
 
   return 0; 
