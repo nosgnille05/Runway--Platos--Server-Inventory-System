@@ -11,9 +11,7 @@ int main(void) {
     -Flutter w/SQL
   */
   char admin_fname[100], admin_lname[100], admin_username[100];
-  char employee_fname[100];
-  char employee_lname[100];
-  char employee_username[100];
+  char employee_fname[100], employee_lname[100], employee_username[100];
   char information_correct[100];
   char Correct[100] = "Y", correct[100] = "y";
   int all_correct = 0;
@@ -26,6 +24,7 @@ int main(void) {
   //Admin or Customer
   printf("Welcome to Runway/Platos! Admin or Customer? A or C\n");
     scanf("%s", admin_or_customer);
+  if(strcmp(Admin, admin_or_customer) == 0 || strcmp(admin, admin_or_customer) == 0){
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
@@ -68,6 +67,8 @@ int main(void) {
   else
     printf("\nDon't worry! We can fix it now!\n");
   }
+}
+  else{
   
   printf("\nWelcome to (Runway/Platos)! Would you like to buy or sell today? B or S\n");
   scanf("%s", buy_sell);
@@ -85,7 +86,7 @@ int main(void) {
     printf("\nDoes this information look correct?\n");
     printf("\nYour First and Last: %s %s\n", seller_fname, seller_lname);
     printf("  Your Phone Number: %s\n", seller_phone);
-
+    }
   
   
 
