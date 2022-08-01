@@ -10,23 +10,18 @@ int main(void) {
     -Employee
     -Flutter w/SQL
   */
-  char admin_fname[100];
-  char admin_lname[100];
-  char admin_username[100];
+  char admin_fname[100], admin_lname[100], admin_username[100];
   char employee_fname[100];
   char employee_lname[100];
   char employee_username[100];
   char information_correct[100];
-  char Correct[100] = "Y";
-  char correct[100] = "y";
+  char Correct[100] = "Y", correct[100] = "y";
   int all_correct = 0;
   char buy_sell[100];
-  char Buy[100] = "B";
-  char buy[100] = "b";
-  char seller_fname[100];
-  char seller_lname[100];
-  char seller_phone[100];
+  char Buy[100] = "B", buy[100] = "b";
+  char seller_fname[100], seller_lname[100], seller_phone[100];
   char admin_or_customer[100];
+  char Admin[100] = "A", admin[100] = "a";
 
   //Admin or Customer
   printf("Welcome to Runway/Platos! Admin or Customer? A or C\n");
