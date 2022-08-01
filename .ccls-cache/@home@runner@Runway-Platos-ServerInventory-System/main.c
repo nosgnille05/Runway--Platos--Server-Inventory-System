@@ -30,7 +30,9 @@ int main(void) {
   char buy_sell[100];
   char Buy[100] = "B";
   char buy[100] = "b";
-  int buy_bool = 0;
+  char seller_fname[100];
+  char seller_lname[100];
+  int* seller_phone;
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
@@ -81,9 +83,11 @@ int main(void) {
     printf("\nAwesome! Take a look around!\n");
   else{
     printf("\nGreat! An associate will be right with you!\n");
-    //Please fill out this form
-    //First and Last Name
-    //Phone Number
+    printf("\nPlease enter your First and Last name.\n");
+      scanf("%s", seller_fname);
+      scanf("%s", seller_lname);
+    printf("\nPlease enter your phone number. We'll only use it to contact you when we're done.\n");
+        scanf("%s", seller_phone);
   }
   
 
