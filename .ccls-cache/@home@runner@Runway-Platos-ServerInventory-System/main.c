@@ -82,7 +82,7 @@ int main(void) {
     printf("\nPlease enter your First and Last name.\n");
       scanf("%s", seller_fname);
       scanf("%s", seller_lname);
-    printf("\nPlease enter your phone number.\nWe'll only use it to contact you when we're done.\n");
+    printf("\nPlease enter your phone number.\n**Only uses to contact you when we're done**\n");
         scanf("%s", seller_phone);
   }
     printf("\nDoes this information look correct? Y or N\n");
