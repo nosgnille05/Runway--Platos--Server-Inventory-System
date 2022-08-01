@@ -30,6 +30,7 @@ int main(void) {
   char buy_sell[100];
   char Buy[100] = "B";
   char buy[100] = "b";
+  int buy_bool = 0;
 
   //Get Information
   printf("\nPlease enter the following information:\n---------------------------------------\n");
@@ -77,9 +78,11 @@ int main(void) {
   scanf("%s", buy_sell);
 
   if(strcmp(Buy, buy_sell) == 0 || strcmp(buy, buy_sell) == 0){
-    printf("\nAwesome! Take a look around!\n");}
-  else{
-    printf("\nGreat! An associate will be right with you!\n");}
+    printf("\nAwesome! Take a look around!\n");
+    buy_bool = 1;
+  }
+  else
+    printf("\nGreat! An associate will be right with you!\n");
 
   return 0; 
 }
