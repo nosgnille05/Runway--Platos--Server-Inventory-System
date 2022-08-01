@@ -73,7 +73,7 @@ int main(void) {
     printf("\nDon't worry! We can fix it now!\n");
   }
   
-  printf("\nWelcome to (store name)! Would you like to buy or sell today? B or S\n");
+  printf("\nWelcome to (Runway/Platos)! Would you like to buy or sell today? B or S\n");
   scanf("%s", buy_sell);
 
   if(strcmp(Buy, buy_sell) == 0 || strcmp(buy, buy_sell) == 0){
