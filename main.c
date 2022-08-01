@@ -18,6 +18,8 @@ int main(void) {
   char buy_sell[100];
   char Buy[100] = "B", buy[100] = "b";
   char seller_fname[100], seller_lname[100], seller_phone[100];
+  char seller_information_correct[100];
+  char Seller_correct[100] = "Y", seller_correct[100] = "y";
   char admin_or_customer[100];
   char Admin[100] = "A", admin[100] = "a";
 
@@ -80,16 +82,17 @@ int main(void) {
     printf("\nPlease enter your First and Last name.\n");
       scanf("%s", seller_fname);
       scanf("%s", seller_lname);
-    printf("\nPlease enter your phone number. We'll only use it to contact you when we're done.\n");
+    printf("\nPlease enter your phone number.\nWe'll only use it to contact you when we're done.\n");
         scanf("%s", seller_phone);
   }
-    printf("\nDoes this information look correct?\n");
+    printf("\nDoes this information look correct? Y or N\n");
     printf("\nYour First and Last: %s %s\n", seller_fname, seller_lname);
     printf("  Your Phone Number: %s\n", seller_phone);
+    scanf("%s", seller_information_correct);
+    if(strcmp(Seller_correct, seller_information_correct) == 0 || strcmp(seller_correct, seller_information_correct) == 0){
+    printf("\nPerfect! Thank you!\n");
+  } 
     }
-  
-  
-
   return 0; 
 }
 //Design, Organize, Tech-Stack, API, Implementation
