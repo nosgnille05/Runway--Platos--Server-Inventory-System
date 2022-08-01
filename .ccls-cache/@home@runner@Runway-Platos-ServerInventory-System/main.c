@@ -77,12 +77,15 @@ int main(void) {
   printf("\nWelcome to (Runway/Platos)! Would you like to buy or sell today? B or S\n");
   scanf("%s", buy_sell);
 
-  if(strcmp(Buy, buy_sell) == 0 || strcmp(buy, buy_sell) == 0){
+  if(strcmp(Buy, buy_sell) == 0 || strcmp(buy, buy_sell) == 0)
     printf("\nAwesome! Take a look around!\n");
-    buy_bool = 1;
-  }
-  else
+  else{
     printf("\nGreat! An associate will be right with you!\n");
+    //Please fill out this form
+    //First and Last Name
+    //Phone Number
+  }
+  
 
   return 0; 
 }
