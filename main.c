@@ -90,8 +90,8 @@ int main(void) {
         scanf("%s", seller_phone);
   }
     printf("\nDoes this information look correct?\n");
-    printf("Your First and Last: %s %s", seller_fname, seller_lname);
-    printf("Your Phone Number: %s", seller_phone);
+    printf("\nYour First and Last: %s %s\n", seller_fname, seller_lname);
+    printf("  Your Phone Number: %s\n", seller_phone);
 
   
   
