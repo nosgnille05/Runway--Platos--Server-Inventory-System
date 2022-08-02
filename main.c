@@ -84,7 +84,6 @@ int main(void) {
       scanf("%s", seller_lname);
     printf("\nPlease enter your phone number.\n**Only uses to contact you when we're done**\n");
         scanf("%s", seller_phone);
-  }
     printf("\nDoes this information look correct? Y or N\n");
     printf("\nYour First and Last: %s %s\n", seller_fname, seller_lname);
     printf("  Your Phone Number: %s\n", seller_phone);
@@ -92,9 +91,10 @@ int main(void) {
     if(strcmp(Seller_correct, seller_information_correct) == 0 || strcmp(seller_correct, seller_information_correct) == 0){
     printf("\nPerfect! Thank you!\n");
   } 
-    }
-  return 0; 
+  } 
 }
+  return 0;
+  }
 //Design, Organize, Tech-Stack, API, Implementation
 
 //Design: What and How?
