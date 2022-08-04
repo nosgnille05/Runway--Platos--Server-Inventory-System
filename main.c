@@ -5,19 +5,12 @@
 int main(void) {
   /*Notes:
     -Design, Organize, Tech-Stack, API, Implementation
-
-
--Design: What and How?
-
--Organize: In what way?
-
--Tech-Stack: Flutter/Postgres
-
--API: Build it
-
--Implementation: Web Application
-
-*/
+    -Design: What and How?
+    -Organize: In what way?
+    -Tech-Stack: Flutter/Postgres
+    -API: Build it
+    -Implementation: Web Application
+    */
   char admin_fname[100], admin_lname[100], admin_username[100];
   char employee_fname[100], employee_lname[100], employee_username[100];
   char information_correct[100];
