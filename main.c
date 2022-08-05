@@ -87,6 +87,5 @@ int main(void) {
   /*
   Flutter
   API
-  PostgreSQL
   */
 }
