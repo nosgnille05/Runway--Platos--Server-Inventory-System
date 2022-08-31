@@ -87,8 +87,7 @@ int main(void) {
         printf("\nPerfect! Thank you!\n");
       }
     }
-
-    
+ 
   }
 
   return 0;
