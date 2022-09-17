@@ -52,7 +52,6 @@ int main(void) {
       printf("\n              You "
              "Entered:\n------------------------------------------\n");
 
-      
       printf("       Admin Name: %s %s\n", admin_fname, admin_lname);
       printf("   Admin Username: %s\n\n", admin_username);
       printf("    Employee Name: %s %s\n", employee_fname, employee_lname);
