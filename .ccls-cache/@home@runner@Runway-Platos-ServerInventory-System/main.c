@@ -65,7 +65,6 @@ int main(void) {
         printf("\nDon't worry! We can fix it now!\n");
     }
 
-
   } else {
     printf("\nWelcome to (Runway/Platos)! Would you like to buy or sell today? "
            "B or S\n");
