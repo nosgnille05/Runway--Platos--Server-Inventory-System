@@ -3,7 +3,6 @@
 #include <time.h>
 
 int main(void) {
-
   /*Notes:
     -Design, Organize, Tech-Stack, API, Implementation
     -Design: What and How?
