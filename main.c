@@ -47,7 +47,6 @@ int main(void) {
       // Set Employee Userbame
       printf("\nSet the Employees Username.\n");
       scanf("%s", employee_username);
-
       // Generate User Information Output Table
       printf("\nThank you! Please wait...\n\n");
       printf("\n              You "
