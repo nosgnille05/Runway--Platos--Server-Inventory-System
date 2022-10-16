@@ -23,6 +23,7 @@ int main(void) {
   char Seller_correct[100] = "Y", seller_correct[100] = "y";
   char admin_or_customer[100];
   char Admin[100] = "A", admin[100] = "a";
+  
 
   // Admin or Customer
   printf("Welcome to Runway/Platos! Admin or Customer? A or C\n");
