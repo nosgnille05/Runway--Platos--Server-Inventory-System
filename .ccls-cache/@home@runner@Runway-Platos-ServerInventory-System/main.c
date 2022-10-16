@@ -24,7 +24,6 @@ int main(void) {
   char admin_or_customer[100];
   char Admin[100] = "A", admin[100] = "a";
 
-  
 
   // Admin or Customer
   printf("Welcome to Runway/Platos! Admin or Customer? A or C\n");
