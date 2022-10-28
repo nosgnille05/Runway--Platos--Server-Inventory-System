@@ -56,7 +56,6 @@ int main(void) {
       printf("    Employee Name: %s %s\n", employee_fname, employee_lname);
       printf("Employee Username: %s\n", employee_username);
       // Confirm Information Correctness
-
       printf("\nDoes this information look correct? Y or N\n");
       scanf("%s", information_correct);
       if (strcmp(Correct, information_correct) == 0 ||
