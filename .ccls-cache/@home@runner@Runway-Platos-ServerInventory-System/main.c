@@ -58,7 +58,6 @@ int main(void) {
       // Confirm Information Correctness
 
 
-      
       printf("\nDoes this information look correct? Y or N\n");
       scanf("%s", information_correct);
       if (strcmp(Correct, information_correct) == 0 ||
