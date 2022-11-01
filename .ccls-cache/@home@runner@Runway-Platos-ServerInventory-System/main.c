@@ -10,7 +10,6 @@ int main(void) {
     -Tech-Stack: Flutter/Postgres
     -API: Build it
     -Implem
-
 entation: Web Application
     */
   char admin_fname[100], admin_lname[100], admin_username[100];
