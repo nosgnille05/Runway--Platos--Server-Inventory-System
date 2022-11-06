@@ -9,8 +9,7 @@ int main(void) {
     -Organize: In what way?
     -Tech-Stack: Flutter/Postgres
     -API: Build it
-    -Implem
-entation: Web Application
+    -Implementation: Web Application
     */
   char admin_fname[100], admin_lname[100], admin_username[100];
   char employee_fname[100], employee_lname[100], employee_username[100];
@@ -18,6 +17,8 @@ entation: Web Application
   char Correct[100] = "Y", correct[100] = "y";
   int all_correct = 0;
   char buy_sell[100];
+
+  
   char Buy[100] = "B", buy[100] = "b";
   char seller_fname[100], seller_lname[100], seller_phone[100];
   char seller_information_correct[100];
