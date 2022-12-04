@@ -22,7 +22,6 @@ int main(void) {
   char seller_information_correct[100];
   char Seller_correct[100] = "Y", seller_correct[100] = "y";
   char admin_or_customer[100];
-
   char Admin[100] = "A", admin[100] = "a";
 
   // Admin or Customer
