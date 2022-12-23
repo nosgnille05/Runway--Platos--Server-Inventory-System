@@ -29,7 +29,6 @@ int main(void) {
   scanf("%s", admin_or_customer);
   if (strcmp(Admin, admin_or_customer) == 0 ||
       strcmp(admin, admin_or_customer) == 0) {
-
     // Get Information
     printf("\nPlease enter the following "
            "information:\n---------------------------------------\n");
