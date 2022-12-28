@@ -18,7 +18,6 @@ int main(void) {
   char Correct[100] = "Y", correct[100] = "y";
   int all_correct = 0;
 
-  
   char buy_sell[100];
   char Buy[100] = "B", buy[100] = "b";
   char seller_fname[100], seller_lname[100], seller_phone[100];
