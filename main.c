@@ -8,7 +8,6 @@ int main(void) {
     -Design: What and How?
 
 
-
     -Organize: In what way?
     -Tech-Stack: Flutter/Postgres
     -API: Build it
