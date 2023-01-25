@@ -76,6 +76,8 @@ int main(void) {
       printf("\nGreat! An associate will be right with you!\n");
       printf("\nPlease enter your First and Last name.\n");
       scanf("%s", seller_fname);
+
+      
       scanf("%s", seller_lname);
       printf("\nPlease enter your phone number.\n**Only uses to contact you "
              "when we're done**\n");
