@@ -77,6 +77,7 @@ int main(void) {
       printf("\nPlease enter your First and Last name.\n");
       scanf("%s", seller_fname);
 
+
       
       scanf("%s", seller_lname);
       printf("\nPlease enter your phone number.\n**Only uses to contact you "
